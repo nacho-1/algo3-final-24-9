@@ -1,0 +1,11 @@
+a)
+	1) La categoria de un producto se guarda como string. Para diferenciarlos habria que usar estructuras
+	largas de ifs que hacen que el codigo sea menos mantenible.
+	2) La clase Buscador tiene multiples comportamientos. Esto significa que para cambiar un solo comportamiento
+	habria que modificar una clase que tiene otras responsabilidades.
+	
+b)
+	- Responsabilidad Unica: La clase Buscador tiene mas de una responsabilidad (buscar por nombre, por precio,etc)
+	- Open-Close: Que la categoria de un producto se guarde como string viola el principio de open-close
+	ya que si se quisiera agregar otra categoria habria que modificar todas las estructuras de control que
+	se usen para trabajar con estos tipos.
